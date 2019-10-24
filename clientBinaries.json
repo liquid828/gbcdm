@@ -1,0 +1,93 @@
+{
+    "clients": {
+        "Gbcdm": {
+            "version": "1.0.0",
+            "platforms": {
+	        "linux": {
+	          "x64": {
+	            "download": {
+	              "url": "http://103.17.93.76/bcdm8/gbcdm/releases/download/v1.0.0/gbcdm-linux-amd64-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "2762eed9d2743d561361c74db74b778f",
+	              "bin": "gbcdm-linux-amd64-1.0.0-6dc3d659/gbcdm"
+	            },
+	            "bin": "gbcdm",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gbcdm",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          },
+	          "ia32": {
+	            "download": {
+	              "url": "http://103.17.93.76/bcdm8/gbcdm/releases/download/v1.0.0/gbcdm-linux-386-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "bca084bc238380606121f5d7c1120ba1",
+	              "bin": "gbcdm-linux-386-1.0.0-6dc3d659/gbcdm"
+	            },
+	            "bin": "gbcdm",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gbcdm",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          }
+	        },
+                "win": {
+                    "x64": {
+                        "download": {
+                            "url": "http://103.17.93.76/bcdm8/gbcdm/releases/download/v1.0.0/gbcdm-windows-amd64-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "233f8c5c47cf5f314cc7e53c29f264a6",
+                            "bin": "gbcdm-windows-amd64-1.0.0-6dc3d659\\gbcdm.exe"
+                        },
+                        "bin": "gbcdm.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gbcdm",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    },
+                    "ia32": {
+                        "download": {
+                            "url": "http://103.17.93.76/bcdm8/gbcdm/releases/download/v1.0.0/gbcdm-windows-386-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "99e7632ce8a9e7d729633715662a9388",
+                            "bin": "gbcdm-windows-386-1.0.0-6dc3d659\\gbcdm.exe"
+                        },
+                        "bin": "gbcdm.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gbcdm",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
